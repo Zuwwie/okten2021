@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 100px;
+    margin: auto;
+    max-width: 60%;
+}
+
+.header {
+    box-sizing: border-box;
+    padding: 30px 50px;
+    top: 0px;
+    position: fixed;
+    height: 100px;
+    width: 60%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #062b06;
+}
+.menu {
+    display: flex;
+}
+
+.search {
+    height: 30px;
+    width: 30px;
+    background-image: url(img/search.png);
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.burger {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30px;
+    height: 30px;
+    align-content: space-between;
+}
+
+.burgerHr {
+    border: blueviolet 2px solid;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.nav {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background: rgba(35, 35, 108, 0.85);
+    color: red;
+    text-align: center;
+    padding-top: 75px;
+    margin-bottom: 100px;
+}
+.tinyText {
+    width: 50%;
+    margin: 24px auto;
+}
+.tinyContainer {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 100px 0;
+
+}
+
+.h100 {
+    height: 100px;
+}
+.w100 {
+    width: 100px;
+}
+.w150 {
+    width: 150px;
+}
+.color {
+    background: blueviolet;
+}
+
+.bord10 {
+    border-radius: 10px;
+}
+.mrauto {
+    margin: auto;
+}
+.jccenter {
+    text-align: center;
+    justify-content: center;
+}
+.df {
+    display: flex;
+}
+
+.boxForBox {
+    justify-content: space-around;
+}
+.mrb32 {
+    margin-bottom: 32px;
+}
+
+.w250 {
+    width: 250px;
+}
+.jcsb {
+    padding: 0 8%;
+    justify-content: space-between;
+}
+.w200 {
+    width: 200px;
+}
+.bordCircl {
+    border-radius: 50%;
+    margin: 5px;
+}
+.mw100 {
+    min-width: 100px;
+}
+.footer {
+    background: rgba(35, 35, 108, 0.85);
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.mini {
+    height: 24px;
+    width: 24px;
+    border-radius: 5px;
+    margin: 0 5px;
+}

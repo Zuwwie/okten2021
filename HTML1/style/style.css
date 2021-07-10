@@ -1,0 +1,21 @@
+a {
+    color: aqua;
+}
+h1 {
+    color: bisque;
+    text-align: center;
+    /*background: aquamarine;*/
+}
+p {
+    text-align: justify;
+}
+.img {
+   border-radius: 50%;
+}
+.first {
+    color: blue;
+}
+.noDecoration {
+    text-decoration: none;
+    color: red;
+}

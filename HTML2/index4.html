@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            width: 800px;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        .widgets {
+            height: 200px;
+            width: 100%;
+            background: cornflowerblue;
+        }
+
+        .tinyBig {
+            display: flex;
+            justify-content: space-between;
+            /*height: 200px;*/
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .big {
+            background: blue;
+            width: 32%;
+            height: 200px;
+        }
+        .contact {
+            height: 400px;
+            width: 100%;
+            background: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="widgets"></div>
+    <div class="tinyBig">
+        <div class="big"></div>
+        <div class="big"></div>
+        <div class="big"></div>
+    </div>
+    <div class="contact"></div>
+</div>
+</body>
+</html>

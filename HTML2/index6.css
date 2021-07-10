@@ -1,0 +1,82 @@
+body {
+    width: 500px;
+}
+div {
+    box-sizing: border-box;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    background: cadetblue;
+    border: white 5px solid;
+
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.bigLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.hero {
+    width: 100%;
+    height: 200px;
+    background: pink;
+    border: white 5px solid;
+
+}
+.sidebar {
+    width: 100%;
+    height: 200px;
+    background: darkgreen;
+    border: white 5px solid;
+
+}
+
+.bigRight {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.mainContent {
+    height: 300px;
+    width: 100%;
+    background: yellow;
+    border: white 5px solid;
+
+}
+.extraContent {
+    height: 100px;
+    width: 100%;
+    background: silver;
+    border: white 5px solid;
+
+}
+.bigBottom {
+    display: flex;
+    width: 100%;
+}
+.relatedImg {
+    width: 70%;
+    height: 100px;
+    background: darkseagreen;
+    border: white 5px solid;
+
+}
+.relatedPosts {
+    width: 30%;
+    height: 100px;
+    background: lightpink;
+    border: white 5px solid;
+
+}
+.footer {
+    height: 100px;
+    width: 100%;
+    background: orange;
+    border: white 5px solid;
+
+}
